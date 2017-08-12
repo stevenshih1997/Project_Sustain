@@ -8,9 +8,9 @@ class Layout extends Component {
     return (
       <div>
         <Header />
-        <div className="main__container">
+        <section className="main__container">
           {this.props.children}
-        </div>
+        </section>
         <Footer />
       </div>
     );

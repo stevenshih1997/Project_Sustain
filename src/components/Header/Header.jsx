@@ -6,7 +6,7 @@ import NavigationBar from './NavigationBar';
 class Header extends Component {
   render() {
     return (
-      <section>
+      <header className="header">
         <Grid>
           <Col xs={3} md={3}className="logo__stack">
             <Logo />
@@ -20,7 +20,7 @@ class Header extends Component {
             </Row>
           </Col>
         </Grid>
-      </section>
+      </header>
     );
   }
 }

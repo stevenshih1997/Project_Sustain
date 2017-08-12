@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import LogoImage from '../../img/UBCLogo.png';
+import LogoImage from '../../images/UBCLogo.png';
 
 function Logo() {
   return (

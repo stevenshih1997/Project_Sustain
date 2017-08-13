@@ -2,3 +2,29 @@ a.active {
     color: #000000 !important;
     text-decoration: bold !important;
 }
+.container {
+  margin: 0px;
+}
+.navbar {
+  width: 100%;
+  margin-bottom: 0px;
+}
+.nav__container {
+  width: 90vw;
+}
+.menu__button {
+  float: right;
+}
+.container1,
+.container2,
+.container3 {
+  float: left;
+  width: 100px;
+}
+.mobile__nav {
+  right: 0;
+  float: right;
+}
+.hidden {
+  display: none;
+}

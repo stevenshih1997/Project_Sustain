@@ -8,7 +8,7 @@ class Header extends Component {
   render() {
     return (
       <header className="header">
-        <Row>
+        <Row className="top__row">
           <Col xs={3} md={3}>
             <Logo />
           </Col>
@@ -16,7 +16,7 @@ class Header extends Component {
             <h1 className="title">University of British Columbia</h1>
           </Col>
         </Row>
-        <Row className="navbar__row">
+        <Row className="bottom__row navbar__row">
           <NavigationBar />
         </Row>
       </header>

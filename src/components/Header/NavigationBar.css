@@ -1,30 +1,34 @@
-a.active {
-    color: #000000 !important;
-    text-decoration: bold !important;
+.active_item {
+  font-weight: bold;
+}
+button {
+  margin-right: 35px !important;
+}
+ul.navbar-nav > li:hover {
+  background-color: lightgreen;
+}
+@media screen and (max-width: 768px) {
+  div.in > ul > li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  div.collapsing > ul > li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 }
 .container {
-  margin: 0px;
+  margin-left: 0px;
+  overflow-x: hidden;
 }
+
+.navbar__outer {
+}
+.link__item {
+  
+}
+
 .navbar {
-  width: 100%;
   margin-bottom: 0px;
-}
-.nav__container {
-  width: 90vw;
-}
-.menu__button {
-  float: right;
-}
-.container1,
-.container2,
-.container3 {
-  float: left;
-  width: 100px;
-}
-.mobile__nav {
-  right: 0;
-  float: right;
-}
-.hidden {
-  display: none;
 }

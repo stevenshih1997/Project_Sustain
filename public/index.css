@@ -1,0 +1,8 @@
+#root {
+  max-width: 1080px;
+  margin: auto;
+  background-color: white;
+}
+#root_container {
+  background-color: lightgrey;
+}

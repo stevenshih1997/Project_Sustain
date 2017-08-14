@@ -109,28 +109,22 @@ class NavigationBar extends Component {
             <LinkContainer
               exact
               to="/"
-              activeClassName="active"
-              activeStyle={{
-                fontWeight: 'bold',
-              }}
-            ><NavItem>Main</NavItem>
+              activeClassName="active_item"
+              className="link__item"
+            ><NavItem title="Item">Main</NavItem>
             </LinkContainer>
             <LinkContainer
               exact
               to="/about"
-              activeClassName="active"
-              activeStyle={{
-                fontWeight: 'bold',
-              }}
+              activeClassName="active_item"
+              className="link__item"
             ><NavItem>About</NavItem>
             </LinkContainer>
             <LinkContainer
               exact
               to="/survey"
-              activeClassName="active"
-              activeStyle={{
-                fontWeight: 'bold',
-              }}
+              activeClassName="active_item"
+              className="link__item"
             ><NavItem>Survey</NavItem>
             </LinkContainer>
           </Nav>
@@ -138,7 +132,9 @@ class NavigationBar extends Component {
       </Navbar>
     );
     return (
-      navbarInstance
+      <div className="navbar__outer">
+        {navbarInstance}
+      </div>
     );
   }
 }

@@ -16,19 +16,10 @@ ul.navbar-nav > li:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
-
 }
 .container {
   margin-left: 0px;
-  overflow-x: hidden;
 }
-
-.navbar__outer {
-}
-.link__item {
-  
-}
-
 .navbar {
   margin-bottom: 0px;
 }

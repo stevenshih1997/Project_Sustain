@@ -111,7 +111,7 @@ class NavigationBar extends Component {
               to="/"
               activeClassName="active_item"
               className="link__item"
-            ><NavItem title="Item">Main</NavItem>
+            ><NavItem>Main</NavItem>
             </LinkContainer>
             <LinkContainer
               exact

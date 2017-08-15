@@ -8,11 +8,6 @@
     font-size: 36px;
   }
 }
-.top___row,
-.bottom___row {
-  align-items: center;
-}
-
 header {
   overflow-x: hidden;
 }

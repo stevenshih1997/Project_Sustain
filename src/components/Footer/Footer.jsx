@@ -14,7 +14,7 @@ class Footer extends Component {
   }
   render() {
     return (
-      <footer className="row-fluid footer">
+      <footer className="footer">
         <Sponsors images={this.state.images} />
         <Nav justified>
           <LinkContainer to="/">

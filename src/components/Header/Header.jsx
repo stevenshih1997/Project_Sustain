@@ -13,7 +13,7 @@ class Header extends Component {
             <Logo />
           </Col>
           <Col xs={9} md={9}className="title__row">
-            <h1 className="title">University of British Columbia</h1>
+            <h1 className="title__name">University of British Columbia</h1>
           </Col>
         </Row>
         <Row className="bottom__row navbar__row">

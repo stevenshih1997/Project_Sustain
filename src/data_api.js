@@ -12,16 +12,14 @@ export default {
     });
   },
 
-  getPages(callback) {
-    const wpURLpages = 'http://localhost:8888/sustain_wordpress/wp-json/wp/v2/pages';
-    this.api(wpURLpages).then((response) => {
-      this.getPosts(response, callback);
+  getPages(wpURL, callback) {
+    this.api(wpURL).then((response) => {
+      this.getPosts(wpURL, response, callback);
     });
     return true;
   },
 
-  getPosts(pages, callback) {
-    const wpURLposts = 'http://localhost:8888/sustain_wordpress/wp-json/wp/v2/posts';
+  getPosts(wpURLposts, pages, callback) {
     this.api(wpURLposts).then((response) => {
       const posts = response;
       const payload = { pages, posts };

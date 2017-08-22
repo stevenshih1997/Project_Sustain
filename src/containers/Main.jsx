@@ -21,9 +21,9 @@ class Main extends Component {
     return (
       <div>
         <MainCarousel />
-        <Row>
+        <Row className="imagecard__container">
           <ImageCard text={this.state.text1} image={Image1} />
-          <ImageCard text={this.state.text2} image={Image2} />
+          <ImageCard className="middle" text={this.state.text2} image={Image2} />
           <ImageCard text={this.state.text3} image={Image3} />
         </Row>
       </div>

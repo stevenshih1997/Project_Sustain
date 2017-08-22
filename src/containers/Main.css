@@ -7,6 +7,6 @@ html, body {
   overflow-x: hidden;
 }
 */
-body {
-  overflow-y: hidden;
+.imagecard__container {
+  text-align: center;
 }

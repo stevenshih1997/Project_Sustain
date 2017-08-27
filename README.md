@@ -1,0 +1,1 @@
+- After cloning repo, type `npm install`, then go into client and also type npm install. Now go back to server.js and type `npm start` to run server

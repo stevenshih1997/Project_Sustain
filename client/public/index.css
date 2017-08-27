@@ -1,0 +1,8 @@
+#root {
+  max-width: 1080px; /* Set width of website */
+  margin: auto;
+  background-color: white;
+}
+#root_container {
+  background-color: lightgrey;
+}

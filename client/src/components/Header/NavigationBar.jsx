@@ -122,10 +122,10 @@ class NavigationBar extends Component {
             </LinkContainer>
             <LinkContainer
               exact
-              to="/survey"
+              to="/quotes"
               activeClassName="active__item"
               className="link__item"
-            ><NavItem>Survey</NavItem>
+            ><NavItem>Quotes</NavItem>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>

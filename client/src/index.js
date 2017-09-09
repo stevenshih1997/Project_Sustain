@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import Main from './containers/Main';
 import About from './containers/About';
-import Survey from './containers/Survey';
+import Quotes from './containers/Quotes';
 import Layout from './components/Layout/Layout';
 
 ReactDOM.render(
@@ -15,7 +15,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={Main} />
         <Route path="/about" component={About} />
-        <Route path="/survey" component={Survey} />
+        <Route path="/quotes" component={Quotes} />
       </Switch>
     </Layout>
   </BrowserRouter>,

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import axios from 'axios';
 
-class Survey extends Component {
+class Quotes extends Component {
   constructor() {
     super();
     this.state = {
@@ -38,11 +38,13 @@ class Survey extends Component {
         <h1>
           {this.state.quote}
         </h1>
-        {this.state.author}
-        <Button bsSize="large" type="button" onClick={this.handleClick}>Get Quote</Button>
+        <p>
+          {this.state.author}
+        </p>
+        <Button bsSize="small" type="button" onClick={this.handleClick}>Get Quote</Button>
       </div>
     );
   }
 }
 
-export default Survey;
+export default Quotes;
